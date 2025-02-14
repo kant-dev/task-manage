@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Task Manager
 
-## Getting Started
+🚀 A powerful Task Manager built with Next.js, Zustand for state management, and TanStack Query for efficient data handling.
 
-First, run the development server:
+## 📌 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- ✅ Add, edit, and remove tasks
+- ✅ Persistent storage with Zustand
+- ✅ Responsive and modern interface
+- ✅ Fast navigation using Next.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/) – React framework for server-side rendering and optimization
+- [Zustand](https://github.com/pmndrs/zustand) – Lightweight state management.
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for rapid UI development
+- [TypeScript](https://www.typescriptlang.org/) – Static typing for enhanced code quality and developer experience
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Installation
 
-## Learn More
+1. Clone this repository:
+   ```
+   git clone https://github.com/kant-dev/task-manager.git
+   cd task-manager
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   ```
+   npm install
+   # or
+   yarn install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Start the development server:
+   ```
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Open your browser and navigate to `http://localhost:3000`
 
-## Deploy on Vercel
+## 🖥️ Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Adding a task**: Fill out the task form and click "Add Task".
+- **Managing tasks**: View the task list in the dashboard and update task status as you progress.
+- **Deleting tasks**: Click the delete button to remove a task.
+- **Filtering tasks**: Use the filter options to sort tasks by priority or status.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/kant-dev/task-manager/issues) if you want to contribute.
+
+## 📄 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
+## 👨‍💻 Author
+
+- GitHub: [@kant-dev](https://github.com/kant-dev)
+
+---
+
+Made with ❤️ and React
