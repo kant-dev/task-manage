@@ -8,11 +8,10 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from '../ui/input'
 import { Button } from '../ui/button'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select'
-import { useRouter } from 'next/navigation'
-import { useTaskStore } from '@/store/task-store'
 import { Task } from '@/types/task'
 import { nanoid } from 'nanoid'
 import Link from 'next/link'
+import { useTaskStore } from '@/store/task-store'
 
 const formSchema = z.object({
   title: z.string().min(3, "O título deve ter pelo menos 3 caracteres").max(50),
@@ -24,8 +23,6 @@ const formSchema = z.object({
 
 export default function TaskForm() {
   const addTask = useTaskStore(state => state.addTask)
-
-  const router = useRouter()
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
