@@ -5,7 +5,6 @@
 ## 📌 Features
 
 - ✅ Add, edit, and remove tasks
-- ✅ Filter tasks by priority and status
 - ✅ Persistent storage with Zustand
 - ✅ Responsive and modern interface
 - ✅ Fast navigation using Next.js
